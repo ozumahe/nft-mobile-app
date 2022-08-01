@@ -5,6 +5,8 @@ import { COLORS, SIZES, SHADOWS, assets } from "../constants";
 
 import CircleButton from "../components/Buttons/CircleButton";
 
+import { SubInfo, EthPrice, NFTTitle } from "./SubInfo";
+
 const NFTCard = ({ data }) => {
   const navigation = useNavigation();
 
@@ -37,6 +39,7 @@ const NFTCard = ({ data }) => {
         top={10}
         handlePress={handlePress}
       />
+      <SubInfo />
     </View>
   );
 };
