@@ -7,9 +7,7 @@ import {
   FlatList,
   TouchableOpacity,
 } from "react-native";
-
 import { SIZES, COLORS, SHADOWS, FONTS, assets } from "../constants";
-
 import CircleButton from "../components/Buttons/CircleButton";
 import RectButton from "../components/Buttons/RectButton";
 

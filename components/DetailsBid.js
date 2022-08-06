@@ -1,7 +1,5 @@
 import { View, Text, Image } from "react-native";
-
 import { EthPrice } from "./SubInfo";
-
 import { COLORS, FONTS, SIZES } from "../constants";
 
 const DetailsBid = ({ bid }) => {
